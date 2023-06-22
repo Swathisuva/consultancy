@@ -1,0 +1,66 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+body {
+    background: radial-gradient(#e5e5e5,#ffff,#e5e5e5);
+}
+
+.card {
+    width: 20rem;
+    margin-left: 35px;
+    overflow: hidden;
+    display: flex;
+}
+
+.card:hover {
+    box-shadow: 5px 10px 20px 10px rgba(0,0,0,0.253)!important;
+}
+
+.card-body {
+    padding: 0 !important;
+    overflow: hidden;
+}
+
+.container-fluid .row {
+    padding-top: 6rem;
+}
+
+.card-img {
+    height: 250px;
+    object-fit: cover;
+    transform: scale(1);
+    transition: transform 3s ease;
+    height: 500px;
+}
+
+.card-img:hover {
+    transform: scale(1.8);
+}
+
+.overflow {
+    overflow: hidden;
+}
+
+.card-title {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    padding: 0px;
+    margin-top: 0px;
+}
+
+.card-price {
+    font-size: 1.2rem;
+    color: green;
+}
+
+.card-button {
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.form-label{
+    padding: 10px;
+}
